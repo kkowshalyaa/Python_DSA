@@ -7,6 +7,12 @@ Output: true
 Example 2:
 Input: s = "rat", t = "car"
 Output: false
+
+https://leetcode.com/problems/valid-anagram/description/
+
+Implementation - 
+1. Create Dictionary for each string such that Dict Key - character, Value - No. of Times the Character occurs
+2. Check if both the Dictonaries are equal.
 '''
 class Solution:
     def isAnagram(self, s: str, t: str) -> bool:
