@@ -12,6 +12,10 @@ Output: 4
 Explanation: The last word is "moon" with length 4.
 
 https://leetcode.com/problems/length-of-last-word/description/
+
+Implementation:
+1. Using strip removes any spaces at the right end. 
+2. Split with parameter space, gives us an array 
 '''
 
 class Solution:
