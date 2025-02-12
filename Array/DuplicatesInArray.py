@@ -4,6 +4,8 @@
 # If array element is already present then it's a duplicate.
 # Solution might not be optimised for scenarios where the array size is large.
 
+# https://leetcode.com/problems/find-all-duplicates-in-an-array/description/
+
 def duplicatesInArray(nums):
     dup_dict = dict()
     for num in nums:
