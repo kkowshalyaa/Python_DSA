@@ -11,7 +11,7 @@ Output: false
 
 https://leetcode.com/problems/is-subsequence/description/
 
-Solution using hashmap: https://github.com/AlgoMaster-io/leetcode-solutions/blob/main/python/valid-palindrome.md
+Solution using hashmap: https://github.com/AlgoMaster-io/leetcode-solutions/blob/main/python/is-subsequence.md
 '''
 class Solution:
     def isSubsequence(self, s: str, t: str) -> bool:
