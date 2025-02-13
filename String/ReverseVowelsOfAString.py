@@ -26,6 +26,6 @@ class Solution:
                 i += 1
             while i < j and cs[j] not in vowels:
                 j -= 1
-            cs[i], cs[j] = cs[j], cs[i]
+            cs[i], cs[j] = cs[j], cs[i] #List conversion because this is not possible with string
             i, j = i + 1, j - 1
         return "".join(cs)
