@@ -18,7 +18,9 @@ The XOR operation returns true (or 1) if exactly one of the two inputs is true (
 1 XOR 0 = 1
 1 XOR 1 = 0
 
-Bascially, when there are pairs, it cancels out and single integer is left out.
+Bascically, when there are pairs, it cancels out and single integer is left out.
+
+https://leetcode.com/problems/single-number/description/
 '''
 class Solution:
     def singleNumber(self, nums: List[int]) -> int:
